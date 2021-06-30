@@ -28,13 +28,19 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
       li.nav-item
         a.nav-link.js-scroll-trigger(href='#education') Education
       li.nav-item
-        a.nav-link.js-scroll-trigger(href='#experience') Experience
+        a.nav-link.js-scroll-trigger(href='#experience') Work Experience
+      li.nav-item
+        a.nav-link.js-scroll-trigger(href='#volunteer-experience') Volunteer Experience
+      li.nav-item
+        a.nav-link.js-scroll-trigger(href='#projects') Projects
       li.nav-item
         a.nav-link.js-scroll-trigger(href='#skills') Skills
       li.nav-item
         a.nav-link.js-scroll-trigger(href='#interests') Interests
       li.nav-item
-        a.nav-link.js-scroll-trigger(href='#awards') Awards
+        a.nav-link.js-scroll-trigger(href='#contact-me') Contact Me
+  p.nav-item
+    b &copy; WYATT DUBERSTEIN 2021
 // Page Content
 .container-fluid.p-0
   // About
@@ -47,15 +53,15 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
         | 204 Beach Road &middot; Ames, Iowa 50013 &middot; (763) 203-2990 &middot;
         a(href='wyattduberstein@gmail.com') wyattduberstein@gmail.com
       p.lead.mb-5
-        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+        | Software Engineering Undergrad with a strong interest in software development and computer science, both recreational and professional. Skilled in Java, WordPress, Linux System Administration, Amazon Web Services (AWS), and MariaDB. Strong operations professional with a Bachelor of Engineering - BE focused in Software Engineering from Iowa State University.
       .social-icons
         a.social-icon(href='https://www.linkedin.com/in/wyatt-duberstein-854a02198/' target='_blank' rel='noreferrer noopener')
           i.fab.fa-linkedin-in
         a.social-icon(href='https://www.github.com/DoubleYouCash' target='_blank' rel='noreferrer noopener')
           i.fab.fa-github
-        a.social-icon(href='#')
+        a.social-icon(href='https://twitter.com/Wycash' target='_blank' rel='noreferrer noopener')
           i.fab.fa-twitter
-        a.social-icon(href='#')
+        a.social-icon(href='https://www.facebook.com/wyatt.duberstein' target='_blank' rel='noreferrer noopener')
           i.fab.fa-facebook-f
   hr.m-0
   // Education
@@ -66,6 +72,7 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
         .flex-grow-1
           h3.mb-0 Iowa State University
           .subheading.mb-3 Software Engineering, Minor in Cybersecurity
+          div Runtime Terror
           div Larch Lan Club
           p GPA: 3.28
         .flex-shrink-0
@@ -74,14 +81,15 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
         .flex-grow-1
           h3.mb-0 Delano High School
           .subheading.mb-3 FIRST Robotics Team 3026 (Lead Programmer)
+          .subheading.mb-3 First-Chair Percussion
           p GPA: 3.52
         .flex-shrink-0
           span.text-primary August 2015 - June 2019
   hr.m-0
-  // Experience
+  // Work Experience
   section#experience.resume-section
     .resume-section-content
-      h2.mb-5 Experience
+      h2.mb-5 Work Experience
       .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
       .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
         .flex-grow-1
@@ -135,8 +143,10 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             li Assist students and the team in reaching their yearly goal
             li Maintain a safe and productive learning environment to foster success
         .flex-shrink-0
-          span.text-primary July 2019 - Present
+          span.text-primary June 2019 - Present
   hr.m-0
+  // Projects
+  section#projects.resume-section
   // Skills
   section#skills.resume-section
     .resume-section-content
@@ -144,27 +154,17 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
       .subheading.mb-3 Programming Languages &amp; Tools
       ul.list-inline.dev-icons
         li.list-inline-item
+          i.fab.fa-java
+        li.list-inline-item
           i.fab.fa-html5
         li.list-inline-item
-          i.fab.fa-css3-alt
-        li.list-inline-item
           i.fab.fa-js-square
-        li.list-inline-item
-          i.fab.fa-angular
         li.list-inline-item
           i.fab.fa-react
         li.list-inline-item
           i.fab.fa-node-js
         li.list-inline-item
-          i.fab.fa-sass
-        li.list-inline-item
-          i.fab.fa-less
-        li.list-inline-item
           i.fab.fa-wordpress
-        li.list-inline-item
-          i.fab.fa-gulp
-        li.list-inline-item
-          i.fab.fa-grunt
         li.list-inline-item
           i.fab.fa-npm
       .subheading.mb-3 Workflow
@@ -184,60 +184,33 @@ nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
         li
           span.fa-li
             i.fas.fa-check
-          |                     Agile Development &amp; Scrum
+          |                     Agile Development
   hr.m-0
   // Interests
   section#interests.resume-section
     .resume-section-content
       h2.mb-5 Interests
       p
-        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+        | Apart from being a web developer and software engineer, I love to play and make music. I play guitar, piano, and sing.
       p.mb-0
-        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+        | When forced indoors, I follow a number of sci-fi movies and television shows, and listen to my vinyl collection (The Beatles and Queen, of course). I spend the rest of my free time exploring the latest technology advancements in the tech and software development world.
   hr.m-0
-  // Awards
-  section#awards.resume-section
+  section#contact-me.resume-section
     .resume-section-content
-      h2.mb-5 Awards &amp; Certifications
-      ul.fa-ul.mb-0
-        li
-          span.fa-li
-            i.fas.fa-trophy.text-warning
-          |                     Google Analytics Certified Developer
-        li
-          span.fa-li
-            i.fas.fa-trophy.text-warning
-          |                     Mobile Web Specialist - Google Certification
-        li
-          span.fa-li
-            i.fas.fa-trophy.text-warning
-          |                     1
-          sup st
-          |                     Place - University of Colorado Boulder - Emerging Tech Competition 2009
-        li
-          span.fa-li
-            i.fas.fa-trophy.text-warning
-          |                     1
-          sup st
-          |                     Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-        li
-          span.fa-li
-            i.fas.fa-trophy.text-warning
-          |                     2
-          sup nd
-          |                     Place - University of Colorado Boulder - Emerging Tech Competition 2008
-        li
-          span.fa-li
-            i.fas.fa-trophy.text-warning
-          |                     1
-          sup st
-          |                     Place - James Buchanan High School - Hackathon 2006
-        li
-          span.fa-li
-            i.fas.fa-trophy.text-warning
-          |                     3
-          sup rd
-          |                     Place - James Buchanan High School - Hackathon 2005
+      .container
+        h2.mb-5 Contact Me
+        form(target='_blank' action='https://formsubmit.co/aca1701858d9c987cbff92bd4fb8d966' method='POST')
+          .form-group
+            .form-row
+              .col
+                input.form-control(type='text' name='name' placeholder='Full Name' required='')
+              .col
+                input.form-control(type='email' name='email' placeholder='Email Address' required='')
+          .form-group
+            textarea.form-control(placeholder='Your Message' name='message' rows='10' required='')
+          button.btn.btn-lg.btn-dark.btn-block(type='submit') Submit Form
+  script(src='js/jquery.min.js')
+  script(src='js/bootstrap.min.js')
 // Bootstrap core JS
 script(src='https://code.jquery.com/jquery-3.5.1.min.js')
 script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
