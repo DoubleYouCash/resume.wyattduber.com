@@ -36,18 +36,21 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-resume.git"
     },
     "dependencies": {
-        "bootstrap": "4.6.0"
+        "bootstrap": "^4.6.0",
+        "darkmode-js": "^1.5.7",
+        "scrolling-based-progressbar": "^1.21.0",
+        "upgrade": "^1.1.0"
     },
     "devDependencies": {
         "autoprefixer": "10.2.5",
-        "browser-sync": "2.26.14",
+        "browser-sync": "^2.27.10",
         "chokidar": "3.5.1",
         "concurrently": "6.0.2",
         "postcss": "8.2.13",
         "prettier": "2.2.1",
         "pug": "3.0.2",
         "sass": "1.32.11",
-        "shelljs": "0.8.4",
+        "shelljs": "^0.8.5",
         "upath": "2.0.1"
     }
 }
