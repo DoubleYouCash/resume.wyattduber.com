@@ -53,10 +53,12 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
           | Wyatt
           span.text-primary Duberstein
         .subheading.mb-5
-          | Ames, Iowa &middot; 
+          | Bismarck, ND &middot; 
           a(href='mailto:wyattduberstein@gmail.com') wyattduberstein@gmail.com
         p.lead.mb-5
-          | Software Engineering Undergrad with a strong interest in software development and computer science, both recreational and professional. Skilled in Java, WordPress, Linux System Administration, Amazon Web Services (AWS), and MariaDB.
+          | Consulting Associate at 
+          a(href='https://rsmus.com/' target='_blank') RSM
+          |  with a strong interest in software development and computer science, both recreational and professional. Skilled in Java, Python, C/C++, Linux System Administration, Amazon Web Services (AWS), and MySQL.
         .social-icons
           a.social-icon(href='https://www.linkedin.com/in/wyatt-duberstein-854a02198/' target='_blank' rel='noreferrer noopener')
             i.fab.fa-linkedin-in
@@ -67,7 +69,7 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
           a.social-icon(href='https://www.facebook.com/wyatt.duberstein' target='_blank' rel='noreferrer noopener')
             i.fab.fa-facebook-f
           a.social-icon(href='assets/files/resume.pdf' target='_blank' rel='noreferrer noopener')
-            i.fab.fa-file-user
+            i.fa-regular.fa-file
     hr.m-0
     // Education
     section#education.resume-section
@@ -78,7 +80,7 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
             h3.mb-0 Iowa State University
             .subheading.mb-3 Software Engineering, Minor in Cybersecurity
             div GPA: 3.17
-            p Dean&apos;s List - Spring 2022
+            p Dean&apos;s List - Spring 2022, Spring 2023
             div Runtime Terror
             div Larch Lan Club
           .flex-shrink-0
@@ -97,6 +99,25 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
     section#experience.resume-section
       .resume-section-content
         h2.mb-5 Work Experience
+        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+          .flex-grow-1
+            h3.mb-0 Consulting Associate - Custom Apps
+            .subheading.mb-3
+              a(href='https://rsmus.com' target='_blank') RSM US LLP
+            ul
+              li
+                | Gain a general understanding of professional serviecs and how RSM services it&apos;s clients by shadowing other consultants
+              li
+                | Learn how to interact with APIs, databases, and webservices utilizing a variety of low-code and custom-code toolsets
+              li
+                | Understand RSM&apos;s application development best practices by participating in client work
+              li Work with client and RSM engineers to documenttechnical requirements
+              li
+                | Collaborate wiht other interns and intern supervisors to solve complex technical problems in creative ways
+              li
+                | Understand RSM&apos;s business model by participating in a team capstone project with other lines of business
+          .flex-shrink-0
+            span.text-primary July 2023 - Present
         .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
           .flex-grow-1
             h3.mb-0 Consulting Intern - Data Integration
@@ -154,39 +175,67 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
         h2.mb-5 Projects
         .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
           .flex-grow-1
-            h3.mb-0 Personal Website
+            h3.s CyDAQ
+            .subheading.mb-2 Senior Design Team Project @ ISU
             .subheading.mb-3
-              a.nav-link.js-scroll-trigger(href='#about') wyattduber.com
+              a(href='https://sdmay23-47.sd.ece.iastate.edu/' target='_blank') View Website
             ul
               li
-                | Self-Hosted website with personal info, professional info, work experience, and contact form
+                | Device designed for and used in Signals and Systems I/II (EE 224/324) at Iowa State University
               li
-                | Hosted with a NodeJS webserver and nginx, through personal Linux server on campus
-              li Uses OpenVPN and AWS to communicate through to the open internet
-          // div class="flex-shrink-0"><span class="text-primary">August 2021 - Present</span></div
+                | Measures and records electrical signals and outputs measurements into graph files
+              li
+                | Can also balance a ball on a beam and measure exact position of ball for educating students on PID
+              li Redesign of an existing prototype done by a previous senior design project
+              li
+                | Designed a GUI for controlling and programming the CyDAQ from a host machine using PyQt5
+              li
+                | Designed a wrapper for the existing CLI (Command-Line Interface) tool to handle input/outputs for the CyDAQ
         .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
           .flex-grow-1
             h3.mb-0 iTrakz
+            .subheading.mb-2 CS 319 Team Project @ ISU
             .subheading.mb-3
-              a(href='https://itrakz.wyattduber.com' target='_blank') itrakz.wyattduber.com
+              a(href='https://itrakz.wyattduber.com' target='_blank') View Website
+              |  &bull; 
+              a(href='https://github.com/DoubleYouCash/iTrakz' target='_blank')
+                | View Source
+                i.fa-brands.fa-github
             ul
               li
                 | Self-Hosted ticketing system through web-interface created as a group project for class
               li Fully functioning ticketing system with assigning features and ticket management
               li Group project for Computer Science 319 (Construction of User Interfaces)
-          // div class="flex-shrink-0"><span class="text-primary">January 2020 - September 2021</span></div
         .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
           .flex-grow-1
-            h3.s MCDBridge
+            h3.mb-0 Portfolio Website
             .subheading.mb-3
-              a(href='https://github.com/DoubleYouCash/MCDBridge' target='_blank') Minecraft Spigot Plugin
+              a(href='https://www.wyattduber.com/' target='_blank') View Website
+              |  &bull; 
+              a(href='https://github.com/DoubleYouCash/Project-Dashboard' target='_blank')
+                | View Source
+                i.fa-brands.fa-github
             ul
               li
-                | Minecraft Spigot Plugin that hooks into a Discord API Bot to link features between both
+                | Self-Hosted website with personal info, professional info, projects (in-progress/completed), and sites hosted
               li
-                | Java plugin using Spigot API combining features with the Discord API to link messages, commands, and roles
-              li Currently used on a Minecraft Server with nearly 10,000 players
-          // div class="flex-shrink-0"><span class="text-primary">August 2017 - August 2021</span></div
+                | Made with HTML/CSS/JavaScript by a 
+                a(href='https://jeremynoesen.xyz' target='_blank') friend
+                |  and redone/customized
+              li Hosted at home with a homelab using an nginx webserver
+        .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+          .flex-grow-1
+            h3.mb-0 AirPlanned
+            .subheading.mb-2 CS 309 Team Project @ ISU
+            .subheading.mb-3
+              a(href='https://github.com/DoubleYouCash/Airplanned' target='_blank')
+                | View Source
+                i.fa-brands.fa-github
+            ul
+              li Travel planning app meant to plan air travel and hotel accomodations
+              li
+                | Features a built-in social media application to share travel plans with friends/family
+              li Made as an Android application frontend and with a Springboot backend
     hr.m-0
     // Volunteer Experience
     section#volunteer-experience.resume-section
@@ -201,6 +250,14 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
                 | Volunteer administrator on Element Animation&rsquo;s Minecraft/Set Development Server and Discord Server
               li
                 | Communicate effectively with an international team of moderators and administrators
+              li Configuring Java plugins
+              li Extensive use and familiarity of .jar, .yml, and .json files
+              li Competent in use of MySQL and SQLite database
+              li Maintaining ideal levels of application performance
+              li Familiarity with linux environment (Ubuntu server)
+              li Responsible for hiring, coaching, and termination (when needed) of staff
+              li Create and implement new ideas and changes to administration and user experience
+              li Ensuring quality of experience for staff and patrons that connect to the server
               li
                 | Quickly and effectively respond to situations where users or staff need assistance, enforcing server policiesand ensuring the server runs at an optimal level of performance
               li Develop java plugins for the needs of the server as well as other servers
@@ -216,7 +273,7 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
               li Assist students and the team in reaching their yearly goal
               li Maintain a safe and productive learning environment to foster success
           .flex-shrink-0
-            span.text-primary June 2019 - Present
+            span.text-primary June 2019 - June 2021
     hr.m-0
     // Skills
     section#skills.resume-section
@@ -226,6 +283,8 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
         ul.list-inline.dev-icons
           li.list-inline-item
             i.fab.fa-java
+          li.list-inline-item
+            i.fa-brands.fa-python
           li.list-inline-item
             i.fa-solid.fa-c
           li.list-inline-item
@@ -249,19 +308,19 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
           li
             span.fa-li
               i.fas.fa-check
-            |                     Mobile-First, Responsive Design
+            |  Mobile-First, Responsive Design
           li
             span.fa-li
               i.fas.fa-check
-            |                     Cross Browser Testing &amp; Debugging
+            |  Cross Browser Testing &amp; Debugging
           li
             span.fa-li
               i.fas.fa-check
-            |                     Cross Functional Teams
+            |  Cross Functional Teams
           li
             span.fa-li
               i.fas.fa-check
-            |                     Agile Development
+            |  Agile Development
     hr.m-0
     // Interests
     section#interests.resume-section
@@ -270,7 +329,7 @@ progressbar(height='3px' containerstyle="{{backgroundColor:'#a7caed',bottom:'0',
         p
           | Apart from being a web developer and software engineer, I love to play and make music. I play guitar, piano, and sing.
         p.mb-0
-          | When forced indoors, I follow a number of sci-fi movies and television shows, and listen to my vinyl collection (The Beatles and Queen, of course). I spend the rest of my free time exploring the latest technology advancements in the tech and software development world.
+          | I follow a number of sci-fi movies and television shows, and listen to my vinyl collection (The Beatles and Queen, of course). I spend the rest of my free time exploring the latest technology advancements in the tech and software development world.
     hr.m-0
     section#contact-me.resume-section
       .resume-section-content
