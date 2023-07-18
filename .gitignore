@@ -1,2 +1,4 @@
 # Don't include node_modules, that's what package.json and package-lock.json is for
 node_modules/
+
+mail/
